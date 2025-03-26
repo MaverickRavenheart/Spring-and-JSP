@@ -1,6 +1,8 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<a href="/app/customer/add" class="btn btn-success">Add Customer</a>
+<div>
+    <a href="/app/customer/add" class="btn btn-success">Add Customer</a>
+</div>
 <table class="table table-striped">
        <thead>
              <tr>

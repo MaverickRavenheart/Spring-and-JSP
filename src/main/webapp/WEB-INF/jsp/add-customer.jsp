@@ -11,22 +11,11 @@
         <!-- Sidebar -->
         <div class="d-flex">
             <!-- Side Navbar -->
-            <div class="sidebar bg-dark text-white p-3" style="width: 250px;">
-                <h2>Side Navbar</h2>
-                <ul class="nav flex-column">
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Contact</a>
-                    </li>
-                </ul>
+            <div class="sidebar bg-info text-white p-3" style="width: 250px; height: 100%">
+                    <h2 class="d-flex align-items-center">
+                        Lingua
+                        <img src="${pageContext.request.contextPath}/img/logo.svg" class="ms-2" style="width: 120px; height: 120px;" alt="logo">
+                    </h2>
             </div>
 
             <!-- Main content area -->
